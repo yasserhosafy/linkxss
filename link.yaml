@@ -1,5 +1,5 @@
 swagger: '2.0'
 info:
   title: XSS test
-  description: "<math><a xlink:href=javascript:alert('XSS')>ClickMe</a></math>"
+  description: "<svg/onload=alert('XSS')>"
   version: production
