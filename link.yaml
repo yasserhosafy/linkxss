@@ -1,5 +1,5 @@
 swagger: '2.0'
 info:
   title: XSS test
-  description: "<svg/onload=alert('XSS')>"
+  description: "<iframe src=javascript:confirm('XSS')>"
   version: production
